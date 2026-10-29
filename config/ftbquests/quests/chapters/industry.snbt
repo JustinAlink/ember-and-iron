@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industry"
+	group: ""
+	icon: {
+		id: "mekanism:steel_casing"
+	}
+	id: "1984337FCA8F77EB"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "5D785276F27DB4E4"
+			rewards: [{
+				id: "56AADC1EF2E8925E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "0F9541DC46380A3F"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D785276F27DB4E4"]
+			id: "14D0381B439FC0B2"
+			rewards: [{
+				id: "5118534D9891A59E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7529FF8D41665A79"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["14D0381B439FC0B2"]
+			id: "19D255D18F29A064"
+			rewards: [{
+				id: "7E9481D335029696"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "2B37FB4F0F6F49E1"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14D0381B439FC0B2"]
+			id: "203B75C88E226D44"
+			rewards: [{
+				id: "42B5E38DDD25C2FF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "5BDBF1304CDA26D4"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"203B75C88E226D44"
+				"19D255D18F29A064"
+			]
+			id: "707E92B56786EBDC"
+			rewards: [{
+				id: "620173159C2145EA"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6CE399D5996EA751"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["19D255D18F29A064"]
+			id: "41DC81798BB7061B"
+			rewards: [{
+				id: "2D51EA7D5C6E278D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "27BB459A7052D551"
+					item: { count: 1, id: "mekanismgenerators:heat_generator" }
+					type: "item"
+				}
+				{
+					id: "3B5EEC3BD51D8425"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["707E92B56786EBDC"]
+			id: "23E3E272A357972E"
+			rewards: [{
+				id: "1123EF2F1591963D"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "66A59EB2A4D1B491"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "61B8532C886CF499"
+			rewards: [{
+				id: "1E86F1D5D2D60D15"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "599ECB8AC0B02049"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61B8532C886CF499"]
+			id: "4C63E1A484EDEECB"
+			rewards: [{
+				id: "1E482955D50D5CC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 27L
+				id: "2986D8C913C092F2"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4C63E1A484EDEECB"]
+			id: "3BA909421C001CCC"
+			rewards: [{
+				id: "2930644103C2100C"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 8L
+				id: "0A98AD1D7CBA36A8"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BA909421C001CCC"]
+			id: "63BAFEB81748EC05"
+			optional: true
+			rewards: [{
+				id: "373AC3A729028044"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4D53E13E5525DA32"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "13DD2BC7E54C0141"
+			rewards: [{
+				id: "4EA5514B3E458A1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41F64452C60B2417"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13DD2BC7E54C0141"]
+			id: "37D3E067146B68FC"
+			rewards: [{
+				id: "494FF277589D295A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 36L
+				id: "29B69C47E7C4AAFB"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "229092FBFB9F8139"
+			rewards: [{
+				id: "4F94153CE3B8A074"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 16L
+				id: "4038746A157684F4"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["203B75C88E226D44"]
+			id: "21C7B32720BA00F4"
+			rewards: [{
+				id: "709B750A99C86802"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "2F7359B474E3FDEA"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "0C0E477377052575"
+			rewards: [{
+				id: "3B23266D39E9071B"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				count: 32L
+				id: "1BE91FB3A87E477E"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C0E477377052575"]
+			id: "3F4895D17424CDDF"
+			rewards: [{
+				id: "78E62C8CA5A0BEC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "7ECD87014DF7B5B4"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["23E3E272A357972E"]
+			id: "34A17CA9B7636AAD"
+			rewards: [{
+				id: "6C9BB9A4520E71C4"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "602A7911A317CA1E"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34A17CA9B7636AAD"]
+			id: "43417A9480D6C55F"
+			rewards: [{
+				id: "7DBFD14E02FAA11B"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "741F433BCED0F858"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

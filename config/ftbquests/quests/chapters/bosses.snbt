@@ -1,0 +1,384 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: ""
+	icon: {
+		id: "minecraft:wither_skeleton_skull"
+	}
+	id: "5A57D05FD1982BA3"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["244AEA485F0E2EC0"]
+			id: "652CAA6481C63C1A"
+			rewards: [
+				{
+					id: "63AED1F97E6D6007"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 3
+					id: "7BD6E2AB1442EFEE"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "1976F05F82D7A574"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["35C7E159BE172AC5"]
+			id: "5CE61515DEDC6FD5"
+			rewards: [{
+				id: "207AD9CC86E25731"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "69989716EDD4F788"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5CE61515DEDC6FD5"]
+			id: "3F8811928EC726D3"
+			rewards: [{
+				id: "37C64118595981CF"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "6486825A60AFA36B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3F8811928EC726D3"]
+			id: "34CF5C8DB507A3C9"
+			rewards: [{
+				id: "00858C41D3B66A6C"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "2E919BA4CB5AD464"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["34CF5C8DB507A3C9"]
+			id: "671E49CFAF782481"
+			rewards: [{
+				id: "51A0718F9A5455FA"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "5FF281B33DBBD5C1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21BAFFDABBEC8421"]
+			id: "114FEF8659ECB6A9"
+			rewards: [{
+				id: "3334ADE5DD770149"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				id: "114872E963325C3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["114FEF8659ECB6A9"]
+			id: "3D48EE7121691B57"
+			rewards: [{
+				id: "54176D2C3899684D"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "69745C3EF371B7AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3D48EE7121691B57"]
+			id: "5147113C352987E7"
+			rewards: [{
+				id: "311EA1A429158974"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "0CEA0C511F5C478E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["652CAA6481C63C1A"]
+			id: "6A6C2AFE53AEB661"
+			rewards: [{
+				id: "45C7F63EADB8DA2C"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "59A4FAC4C2678909"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["652CAA6481C63C1A"]
+			id: "014EB85000044D1E"
+			rewards: [{
+				id: "7C14E055CEBAD8B5"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "52EE2C54ACFEFD53"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["652CAA6481C63C1A"]
+			id: "58765F35776BC848"
+			rewards: [{
+				id: "5C95E532A824EE4D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "4770284D4A76B8A3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["652CAA6481C63C1A"]
+			id: "06FEA72836736668"
+			rewards: [{
+				id: "3848BB14A98EA21F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "07E51FBF9C05F753"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["14911C2D5CE04E33"]
+			id: "72AB27FF44A05AF9"
+			rewards: [{
+				id: "62590A78478406A5"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "7DB9FD7D89028F85"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["72AB27FF44A05AF9"]
+			id: "3A093C25F12ABE17"
+			rewards: [{
+				id: "59D5C24730F62075"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "4D4B51731AEE4E7F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3443DAFD4CA1A25D"]
+			id: "38A3646489283E99"
+			rewards: [{
+				id: "38D9F30C04004536"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "0B484F073DAE4A47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3443DAFD4CA1A25D"]
+			id: "6760191EFDFE078E"
+			rewards: [{
+				id: "17230BFCBE82F2AC"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1FEE7683B6C4AE85"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6760191EFDFE078E"]
+			id: "3D7EF2766B5C6780"
+			rewards: [{
+				id: "1CC7609C04C8DBFA"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "26254BCCF3A8276D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["72AB27FF44A05AF9"]
+			id: "4C06C96B7F3DE65D"
+			rewards: [{
+				id: "4E9B6768ECE730FE"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "13A11882AE4C06C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4C06C96B7F3DE65D"]
+			id: "502371386B2DC7B8"
+			rewards: [{
+				id: "1E0328168D4C55CB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "27415686FAFF771A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3A093C25F12ABE17"]
+			id: "602F4CCF2594D07B"
+			rewards: [{
+				id: "05A74B767AABB74D"
+				type: "xp"
+				xp: 1200
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "12D6E11414095D04"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6760191EFDFE078E"]
+			id: "0D2682C64C1FBE9A"
+			optional: true
+			rewards: [{
+				id: "382342B7A01DBCAF"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "67F57E8ADE71A725"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.75d
+		}
+	]
+}

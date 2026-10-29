@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane"
+	group: ""
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "67CBD6B1ECC571B4"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "1A4A9B21D1FC5D3D"
+			rewards: [{
+				id: "19F5BB2879B6C73A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "757B0CCD7C42BB5D"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A4A9B21D1FC5D3D"]
+			id: "0E01A437B17D3D5D"
+			rewards: [{
+				id: "79868253575DC57D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "25B94AFDAA34678B"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1A4A9B21D1FC5D3D"]
+			id: "2872AF3B61CF3C30"
+			rewards: [{
+				id: "4B7A85B835903342"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5751898DAF90C330"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+				{
+					id: "3BB2E2092EE739F4"
+					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2872AF3B61CF3C30"]
+			id: "7261103B3B7B290F"
+			rewards: [{
+				id: "30B142C93CEF0B82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7481C43339ABF6B6"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0E01A437B17D3D5D"
+				"7261103B3B7B290F"
+			]
+			id: "3455D22D597A4327"
+			rewards: [{
+				id: "041EE59CCB04725F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3F687E6338A328C3"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3455D22D597A4327"]
+			id: "6062EF1886BDE3B8"
+			rewards: [{
+				id: "25F260A0E910C0D5"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6014A69A1C5454D6"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "0C4375173AD4B4B7"
+			rewards: [{
+				id: "313EE4A74B80C476"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "380AB7EE82974512"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C4375173AD4B4B7"]
+			id: "1513CADCC3DE87C5"
+			rewards: [{
+				id: "1A1E95509FD9BE0E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				count: 16L
+				id: "0407A0FEFC4EB7A4"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1513CADCC3DE87C5"]
+			id: "6488A778CFA29B6E"
+			rewards: [{
+				id: "4132A8E3F1DF6B7A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "75500B461DD4FF28"
+				item: { count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1513CADCC3DE87C5"]
+			id: "7ED77D1F39D0F595"
+			rewards: [{
+				id: "45254DB2CBFA57D8"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4273A85262B538BD"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7ED77D1F39D0F595"]
+			id: "051C6FD360059B3B"
+			rewards: [{
+				id: "5CF1122DCBC41128"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6B562D52565C8E6C"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["051C6FD360059B3B"]
+			id: "35DCC19A5521FFC4"
+			rewards: [{
+				id: "31DD7AECC0935258"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "77D6110797346370"
+				item: { count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "1615D6C5A019DDF0"
+			rewards: [{
+				id: "47115C7356A431FF"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7739EB4714B8241E"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1615D6C5A019DDF0"]
+			id: "1BFBB7AF1D99BC75"
+			rewards: [{
+				id: "304C87F7C379DC07"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6601516AB252DEF4"
+				item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.25d
+		}
+	]
+}

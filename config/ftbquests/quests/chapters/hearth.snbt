@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hearth"
+	group: ""
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "6824A6AC992B8F3E"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B00515BF7869680"]
+			id: "70B8FEF11A972289"
+			rewards: [{
+				id: "03882F0BD31E65A8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5A4CF5F4ACBC25BB"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "26191370851AE474"
+			rewards: [{
+				id: "5EDE8C9E4E395BEA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "476B5EFABEEA67F0"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26191370851AE474"]
+			id: "35C741A3EC22A5CF"
+			rewards: [{
+				id: "13C4920152454A87"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "752698F53F3A211B"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["35C741A3EC22A5CF"]
+			id: "74EF440228B93AD1"
+			rewards: [{
+				id: "2BDD8431E9631786"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "014B28A6BC326AB6"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["35C741A3EC22A5CF"]
+			id: "7E31511B04FAD53C"
+			rewards: [{
+				id: "6DAC53920F5999F6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 16L
+				id: "5D4FD242E0FAD5D7"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"7E31511B04FAD53C"
+				"74EF440228B93AD1"
+			]
+			id: "63AE696D94CD230C"
+			rewards: [{
+				id: "60FBAD8F8E511978"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "25C139EB55C26AAE"
+				item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35C741A3EC22A5CF"]
+			id: "7CE811A2EBE76C6F"
+			rewards: [{
+				id: "5D198170DA070803"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "0CC6CE94A8121122"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["35C741A3EC22A5CF"]
+			id: "62ED1D6FF9C3794A"
+			rewards: [{
+				id: "6541EFE27AF3B8B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C38C91DCFB36D6F"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "0946F4F609D5699F"
+			rewards: [{
+				id: "33A79543CBF7BF9C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "3762B6E9BB88BA5F"
+					item: { count: 1, id: "handcrafted:oak_couch" }
+					type: "item"
+				}
+				{
+					id: "1B66540079D5D816"
+					item: { count: 1, id: "mcwfurnitures:oak_chair" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0946F4F609D5699F"]
+			id: "1D5C34EC9B8E52B7"
+			optional: true
+			rewards: [{
+				id: "0C19A09E0C9CB841"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5F81E6EEA55CDB99"
+				item: { count: 1, id: "comforts:hammock_white" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+	]
+}

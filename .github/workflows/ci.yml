@@ -1,0 +1,82 @@
+name: CI
+
+# Every push to main is a deploy: the Pelican server and every player's Prism instance sync from
+# main on their next start. So main must always boot.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  # Bump on purpose, with any resulting index changes in the same commit.
+  PACKWIZ_VERSION: v0.0.0-20261014010756-170b22d78595
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@${PACKWIZ_VERSION}
+      - name: Index matches the files
+        run: |
+          ~/go/bin/packwiz refresh
+          git diff --exit-code -- index.toml pack.toml
+      - name: Quest book matches scripts/quests.py
+        run: |
+          python3 scripts/quests.py
+          git diff --exit-code -- config/ftbquests
+
+  boot:
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@${PACKWIZ_VERSION}
+      - name: Boot a dedicated server from this commit
+        run: |
+          ~/go/bin/packwiz serve --port 8099 &
+          for _ in $(seq 30); do curl -fs http://localhost:8099/pack.toml >/dev/null && break; sleep 1; done
+          BOOT_TEST_JAVA_OPTS="-Xms6G -Xmx6G" scripts/boot-test.sh "$RUNNER_TEMP/server" http://localhost:8099/pack.toml
+      - name: Server log
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: server-logs
+          path: |
+            ${{ runner.temp }}/server/logs/
+            ${{ runner.temp }}/server/crash-reports/
+          if-no-files-found: ignore
+
+  prism-instance:
+    needs: boot
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build the Prism instance zip
+        run: scripts/build-prism.sh
+      - name: Publish to the prism-instance release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view prism-instance >/dev/null 2>&1 || gh release create prism-instance \
+            --title "Prism Launcher instance" \
+            --notes "Import this zip into Prism Launcher. The instance updates itself from main before every launch, so you only download it once."
+          gh release upload prism-instance build/Ember-and-Iron-Prism.zip --clobber

@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "horizons"
+	group: ""
+	icon: {
+		id: "minecraft:ender_eye"
+	}
+	id: "393ECEAD5DC5EE50"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			id: "14911C2D5CE04E33"
+			rewards: [{
+				id: "1F6617312615FC00"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6006D68378D4D0D2"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			id: "35C7E159BE172AC5"
+			rewards: [{
+				id: "430451537DCF5DFE"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "54B025617EB07B2E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			id: "21BAFFDABBEC8421"
+			rewards: [{
+				id: "4D27FB3C84610AD4"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "06E1DBEA0BD1AE37"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			icon: {
+				id: "undergarden:catalyst"
+			}
+			id: "36EBF2013696F74A"
+			rewards: [{
+				id: "60DF5BADA686228F"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "6DE6867D550E012B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			id: "516AE2FED62CB20A"
+			rewards: [{
+				id: "12AE3192ABB1D2F3"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "6477FE438ECE7F57"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["14911C2D5CE04E33"]
+			id: "3443DAFD4CA1A25D"
+			rewards: [{
+				id: "48096F6833B1A017"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4D0A56E718E6859F"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3443DAFD4CA1A25D"]
+			id: "55854071B87F29DC"
+			rewards: [{
+				id: "710E381A9FF3F61D"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "592D7380EE0224F9"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			id: "56896EEEF9172475"
+			rewards: [{
+				id: "3BF9FD8188BD685F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "3C7127D00ED504D6"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					id: "5B41FB7ACC2F4F8E"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["56896EEEF9172475"]
+			id: "2B19028FF7BABD82"
+			optional: true
+			rewards: [{
+				id: "67FE6836796FE9D4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E2492CDDE227306"
+				item: { count: 1, id: "hangglider:hang_glider" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+	]
+}

@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		id: "minecraft:campfire"
+	}
+	id: "40B137FE2D792459"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "7B00515BF7869680"
+			rewards: [
+				{
+					count: 8
+					id: "6F6AFD63A02777B5"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6622DF3770224ED0"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2836DE770C938D13"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B00515BF7869680"]
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "4E492A6406C03D33"
+			rewards: [{
+				id: "5A5E35A664A0BA49"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5CA80568EEBC7021"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B00515BF7869680"]
+			id: "047B5A06722D3771"
+			rewards: [{
+				id: "35D11429BAA9D174"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5B8E89AD5EB03D00"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "6989C4E5350D13C1"
+			rewards: [{
+				id: "0C301AD154C5771B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "64FB2337AD65754C"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			id: "3CBEAA09E0AA8A33"
+			rewards: [{
+				count: 8
+				id: "626111C3A496C934"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A221A3D3169F4CA"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["047B5A06722D3771"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "4DD101E5933E8C5C"
+			rewards: [{
+				id: "1DC5AA2267387DDB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "126E9816A5B8633B"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CBEAA09E0AA8A33"]
+			id: "51F98D08E58DDB8B"
+			rewards: [{
+				count: 2
+				id: "1B885A1EA4804476"
+				item: {
+					count: 1
+					id: "waystones:return_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48C94052BE6B5228"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51F98D08E58DDB8B"]
+			icon: {
+				id: "minecraft:oak_door"
+			}
+			id: "7DDC6FFC54AC4698"
+			rewards: [{
+				id: "70FAFE8D15D3B497"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6EA12A9BB1942F3B"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B00515BF7869680"]
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "2309F41399D72525"
+			rewards: [{
+				id: "55BCC97FD931B765"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2A09ED2CA6D4E024"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E492A6406C03D33"]
+			id: "288F682F6D45B72A"
+			rewards: [{
+				id: "30ABF853810BBA96"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26FE531C44D70C31"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E492A6406C03D33"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "65EFF4AE84C22F25"
+			rewards: [{
+				id: "356871668FFB9DFD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7FF15C9BFE2DB6AC"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+}

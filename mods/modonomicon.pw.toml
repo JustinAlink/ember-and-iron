@@ -1,0 +1,13 @@
+name = "Modonomicon"
+filename = "modonomicon-1.21.1-neoforge-1.122.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/692GClaE/versions/fGJwJaZu/modonomicon-1.21.1-neoforge-1.122.0.jar"
+hash-format = "sha512"
+hash = "d734c99e792a81fbb3ba70f1f4af514120d90c66240eb29654bd7a56464cf5a11c437f264048c79a3d64b2576beaaa75926016e89c5b348ea5268008bcb14fb5"
+
+[update]
+[update.modrinth]
+mod-id = "692GClaE"
+version = "fGJwJaZu"

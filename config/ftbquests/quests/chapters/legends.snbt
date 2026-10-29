@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legends"
+	group: ""
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "598E868B9E12A255"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14911C2D5CE04E33"]
+			id: "4510FFF5CA45D27E"
+			rewards: [{
+				id: "0D96EF966031F4B7"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "7B6979CBBE4FCF78"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6760191EFDFE078E"]
+			id: "10206B2B6E418584"
+			rewards: [{
+				id: "09D7B362D3E41307"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "60325806B9F78AB2"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C06C96B7F3DE65D"]
+			id: "48F78598F3B36273"
+			rewards: [{
+				id: "6FDB646CEEDA993B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5C94EA50F89FA029"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F78598F3B36273"]
+			id: "3782ACE717A9EBBC"
+			rewards: [{
+				id: "2B380B315DE855E4"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "71220F5C630CC42F"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A093C25F12ABE17"]
+			id: "2C7FA2C429BBE206"
+			rewards: [{
+				id: "2637BB89D384C652"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				id: "7DCAEE3B3DEADCBB"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["671E49CFAF782481"]
+			id: "5EEAA625B9FA6FDD"
+			rewards: [{
+				id: "05CAA1993E00FF45"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "3B2E9F5B5F8A84D1"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3782ACE717A9EBBC"
+				"10206B2B6E418584"
+				"2C7FA2C429BBE206"
+				"5EEAA625B9FA6FDD"
+				"43417A9480D6C55F"
+				"5A58857FD0D63BB0"
+				"6062EF1886BDE3B8"
+			]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "05BA8DD11AF6102A"
+			rewards: [{
+				id: "6F5764A5BA82995D"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1356D66C7FFE0DA6"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

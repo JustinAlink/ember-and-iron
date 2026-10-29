@@ -1,0 +1,267 @@
+{
+	chapter.1984337FCA8F77EB.chapter_subtitle: ["Mekanism, Immersive Engineering, Powah"]
+	chapter.1984337FCA8F77EB.title: "&7The Industrial Age"
+	chapter.19F27B111E9BFC51.chapter_subtitle: ["Digital storage and autocrafting"]
+	chapter.19F27B111E9BFC51.title: "&3Applied Energistics"
+	chapter.1B7C68A918B17EB0.chapter_subtitle: ["Rotation, contraptions and trains"]
+	chapter.1B7C68A918B17EB0.title: "&eCreate: Gears & Grit"
+	chapter.2E78612A049CCA72.chapter_subtitle: ["Skills, loot and combat"]
+	chapter.2E78612A049CCA72.title: "&cThe Adventurer's Path"
+	chapter.393ECEAD5DC5EE50.chapter_subtitle: ["Other dimensions worth the trip"]
+	chapter.393ECEAD5DC5EE50.title: "&bBeyond the Horizon"
+	chapter.40B137FE2D792459.chapter_subtitle: ["Start here: the basics of this world"]
+	chapter.40B137FE2D792459.title: "&6Welcome to Ember & Iron"
+	chapter.598E868B9E12A255.chapter_subtitle: ["For the long haul"]
+	chapter.598E868B9E12A255.title: "&5Endgame"
+	chapter.5A57D05FD1982BA3.chapter_subtitle: ["The big fights, roughly in order"]
+	chapter.5A57D05FD1982BA3.title: "&4Bosses & Legends"
+	chapter.67CBD6B1ECC571B4.chapter_subtitle: ["Ars Nouveau, Iron's Spells, Occultism"]
+	chapter.67CBD6B1ECC571B4.title: "&dThe Arcane"
+	chapter.6824A6AC992B8F3E.chapter_subtitle: ["Food, farms, seasons and building"]
+	chapter.6824A6AC992B8F3E.title: "&aHearth & Home"
+	file.0000000000000001.title: "Ember & Iron"
+	quest.00B2EE7923B6BD94.title: "Automated enchanting"
+	quest.014EB85000044D1E.title: "Umvuthi"
+	quest.03FE9795096BB208.title: "Mechanical mixer"
+	quest.047B5A06722D3771.title: "Getting started"
+	quest.051C6FD360059B3B.title: "Arcane anvil"
+	quest.0556133AA59987F0.quest_subtitle: "Create Stuff & Additions"
+	quest.0556133AA59987F0.title: "Fly on brass"
+	quest.05BA8DD11AF6102A.quest_desc: ["You beat the hardest fights, built the biggest machines and mastered the arcane. Not bad."]
+	quest.05BA8DD11AF6102A.title: "Ember & Iron"
+	quest.06FEA72836736668.quest_desc: ["Haunts the frozen seas on a ghost ship."]
+	quest.06FEA72836736668.title: "Captain Cornelia"
+	quest.08EB6AB52D1080BA.title: "Shafts and cogs"
+	quest.0946F4F609D5699F.quest_desc: ["Handcrafted, Macaw's and Supplementaries add furniture, windows, roofs, bridges, lights and a lot more decoration."]
+	quest.0946F4F609D5699F.title: "Make it home"
+	quest.0C0E477377052575.quest_desc: ["Inferium ore drops essence; plant seeds made from it to farm resources."]
+	quest.0C0E477377052575.quest_subtitle: "Mystical Agriculture"
+	quest.0C0E477377052575.title: "Grow your resources"
+	quest.0C4375173AD4B4B7.title: "Inscription table"
+	quest.0D2682C64C1FBE9A.quest_desc: ["Not required for anything except the Otherside's key. Bring a plan and an exit."]
+	quest.0D2682C64C1FBE9A.title: "The Warden"
+	quest.0D9DD906A66336BB.title: "Deployer"
+	quest.0E01A437B17D3D5D.title: "Scribe's table"
+	quest.10206B2B6E418584.title: "Wings"
+	quest.10FA83D349A5D9E5.quest_desc: ["Gems socket into gear for extra stats. Cut duplicates together to raise their tier."]
+	quest.10FA83D349A5D9E5.title: "Gemcutter"
+	quest.114FEF8659ECB6A9.title: "The Slider"
+	quest.13B69A7A24B07CDF.title: "Processors"
+	quest.13DD2BC7E54C0141.quest_desc: ["Powah turns energy into upgraded crystals and much bigger generators."]
+	quest.13DD2BC7E54C0141.quest_subtitle: "Powah"
+	quest.13DD2BC7E54C0141.title: "Energizing orb"
+	quest.14911C2D5CE04E33.quest_desc: ["The Nether is rebuilt with new biomes and much bigger fortresses. Monsters here start at a higher level."]
+	quest.14911C2D5CE04E33.title: "The Nether"
+	quest.14D0381B439FC0B2.title: "Metallurgic infuser"
+	quest.1513CADCC3DE87C5.title: "Arcane essence"
+	quest.1615D6C5A019DDF0.quest_desc: ["Draw pentacles in chalk and summon spirits to mine, craft and fight for you. Read the in-game guide before you start."]
+	quest.1615D6C5A019DDF0.title: "Occultism"
+	quest.19D255D18F29A064.title: "Steel"
+	quest.1A4A9B21D1FC5D3D.quest_desc: ["Ars Nouveau lets you design your own spells from glyphs. The book's &eWorn Notebook&r explains everything."]
+	quest.1A4A9B21D1FC5D3D.title: "Novice spell book"
+	quest.1BFBB7AF1D99BC75.title: "The ritual"
+	quest.1D06A8D7C396F2C8.title: "Heat it up"
+	quest.1D55FBA50BF7F6D6.quest_desc: ["Fighting and mining earn skill points. Press &eK&r to open your skill trees and spend them on permanent bonuses."]
+	quest.1D55FBA50BF7F6D6.quest_subtitle: "Pufferfish's Skills"
+	quest.1D55FBA50BF7F6D6.title: "Skill trees"
+	quest.1D5C34EC9B8E52B7.quest_desc: ["Hammocks skip the day, sleeping bags skip the night."]
+	quest.1D5C34EC9B8E52B7.title: "Afternoon nap"
+	quest.1ED80383BF74F01A.quest_desc: ["Enchanting is overhauled: shelves change Eterna, Quanta and Arcana, which decide how strong and how wild your enchantments get. Look at a shelf for its stats."]
+	quest.1ED80383BF74F01A.title: "A deeper library"
+	quest.1EDC12F3B3E54499.quest_desc: ["Presses for the processors are found in meteorites."]
+	quest.1EDC12F3B3E54499.title: "Inscriber"
+	quest.1F770D03BD5EFAE7.quest_desc: ["Medieval armour sets with real stats. Knights, crusaders, samurai and more."]
+	quest.1F770D03BD5EFAE7.quest_subtitle: "Epic Knights"
+	quest.1F770D03BD5EFAE7.title: "Suit up"
+	quest.203B75C88E226D44.title: "Basic control circuit"
+	quest.21BAFFDABBEC8421.quest_desc: [
+		"Build a portal frame out of &eglowstone&r and pour a water bucket into it."
+		""
+		"Floating islands, three dungeons and a long way down. Bring a parachute."
+	]
+	quest.21BAFFDABBEC8421.title: "The Aether"
+	quest.21C7B32720BA00F4.quest_desc: ["Mob farms, tree farms, ore laser drills. Automation for when you are tired of doing it by hand."]
+	quest.21C7B32720BA00F4.title: "Industrial Foregoing"
+	quest.229092FBFB9F8139.quest_desc: ["Simple, cheap pipes for items, fluids and energy."]
+	quest.229092FBFB9F8139.title: "Move it"
+	quest.2309F41399D72525.quest_desc: ["Proximity voice chat is built in. Press &eV&r to set up your microphone. Players near you hear you; walls and distance fade you out."]
+	quest.2309F41399D72525.quest_subtitle: "Simple Voice Chat"
+	quest.2309F41399D72525.title: "Say hello"
+	quest.23E3E272A357972E.title: "Digital miner"
+	quest.244AEA485F0E2EC0.title: "Monster hunter"
+	quest.26191370851AE474.title: "Cutting board"
+	quest.265DA88EF00CFCA7.title: "Brass"
+	quest.26748975E838E619.title: "Charged certus"
+	quest.2872AF3B61CF3C30.quest_desc: ["Sourcelinks turn nearby activity into Source, the power behind Ars rituals and machines."]
+	quest.2872AF3B61CF3C30.title: "Source"
+	quest.288F682F6D45B72A.quest_desc: ["Leveled monsters spawning inside your base get old fast. A Megatorch stops hostile spawns in a large radius around it."]
+	quest.288F682F6D45B72A.title: "Keep the dark at bay"
+	quest.29A1164F11FA90FE.quest_desc: [
+		"Everything in Create starts here: iron nuggets or zinc plus andesite."
+		""
+		"Press &eW&r while hovering any Create item to Ponder it: an animated tutorial in-game."
+	]
+	quest.29A1164F11FA90FE.title: "Andesite alloy"
+	quest.2B19028FF7BABD82.quest_desc: ["Jump off something high and glide. Cheaper than an elytra and good enough for a long time."]
+	quest.2B19028FF7BABD82.title: "Ride the wind"
+	quest.2B4CA6A36D0C09F8.quest_desc: [
+		"Gear can now drop with a rarity and random &daffixes&r. Monsters with higher levels drop better loot."
+		""
+		"Break gear you do not want at the Salvaging Table for materials."
+	]
+	quest.2B4CA6A36D0C09F8.quest_subtitle: "Apotheosis"
+	quest.2B4CA6A36D0C09F8.title: "Loot with a story"
+	quest.2C7FA2C429BBE206.title: "Ignitium"
+	quest.2D07CE994B557091.quest_desc: ["Reroll an item's affixes with materials and gem dust."]
+	quest.2D07CE994B557091.title: "Reforge"
+	quest.2FFBD4D1CF99FA11.title: "Mechanical arm"
+	quest.335813486E416FC9.title: "First blood"
+	quest.33F8E054F5C30742.quest_desc: ["Find it in meteorites (a compass from AE2 points to them) and grow more from budding quartz."]
+	quest.33F8E054F5C30742.title: "Certus quartz"
+	quest.3443DAFD4CA1A25D.title: "The End"
+	quest.3455D22D597A4327.title: "Apprentice"
+	quest.34A17CA9B7636AAD.title: "Ultimate circuit"
+	quest.34CF5C8DB507A3C9.title: "The Minoshroom"
+	quest.35C741A3EC22A5CF.quest_desc: ["Put it over a heat source (a campfire or stove) and cook real meals. Better food keeps you full longer."]
+	quest.35C741A3EC22A5CF.title: "Cooking pot"
+	quest.35C7E159BE172AC5.quest_desc: [
+		"Dig a 2x2 pool of water, ring it with flowers or grass, and throw a &bdiamond&r into it."
+		""
+		"A world of eternal dusk with a chain of bosses. Some areas stay locked until you beat the one before."
+	]
+	quest.35C7E159BE172AC5.title: "The Twilight Forest"
+	quest.35DCC19A5521FFC4.title: "Netherite spell book"
+	quest.36EBF2013696F74A.quest_desc: ["Build a frame of &estone bricks&r and use a &eCatalyst&r on it. Dark, dangerous and full of strange ores."]
+	quest.36EBF2013696F74A.title: "The Undergarden"
+	quest.3782ACE717A9EBBC.title: "A light in the sky"
+	quest.37D3E067146B68FC.title: "Reactor"
+	quest.38A3646489283E99.title: "The Obsidilith"
+	quest.3A093C25F12ABE17.title: "Ignis"
+	quest.3BA909421C001CCC.title: "Steel the old way"
+	quest.3CBEAA09E0AA8A33.quest_desc: ["A backpack you can upgrade later: more slots, auto-pickup, magnets, even a crafting grid."]
+	quest.3CBEAA09E0AA8A33.title: "Pack your bags"
+	quest.3D48EE7121691B57.title: "The Valkyrie Queen"
+	quest.3D7EF2766B5C6780.title: "The Ender Guardian"
+	quest.3EFBE9D610DD9167.quest_desc: [
+		"Artifacts hide in dungeon chests and inside mimics. Relics level up as you use them. Both go into the curio slots of your inventory."
+		""
+		"Any artifact counts as progress; this one is just a goal."
+	]
+	quest.3EFBE9D610DD9167.quest_subtitle: "Artifacts and Relics"
+	quest.3EFBE9D610DD9167.title: "Curios"
+	quest.3F4895D17424CDDF.title: "Prosperity"
+	quest.3F8811928EC726D3.title: "The Twilight Lich"
+	quest.41DC81798BB7061B.title: "Power"
+	quest.428BB64618A3BC81.quest_desc: ["Crafts & Additions bridges Create's rotation with Forge Energy used by every other tech mod."]
+	quest.428BB64618A3BC81.title: "Rotation to power"
+	quest.43417A9480D6C55F.title: "MekaSuit"
+	quest.43CDFE0D36955627.title: "Mechanical press"
+	quest.4510FFF5CA45D27E.title: "Netherite"
+	quest.48F78598F3B36273.title: "Nether star"
+	quest.4C06C96B7F3DE65D.title: "The Wither"
+	quest.4C63E1A484EDEECB.title: "Coke oven"
+	quest.4DD101E5933E8C5C.quest_desc: ["Hold &e`&r (the key left of 1) while breaking a block to mine the whole vein or tree at once. It costs hunger, so bring food."]
+	quest.4DD101E5933E8C5C.quest_subtitle: "FTB Ultimine"
+	quest.4DD101E5933E8C5C.title: "Mine smarter"
+	quest.4E492A6406C03D33.quest_desc: [
+		"The number above a monster is its &clevel&r. Levels rise with distance from spawn, with depth, with the number of days the world has lived and with how strong your gear is."
+		""
+		"Some monsters spawn ranked: &aVeteran&r, &9Elite&r, &5Champion&r. Very rarely a named &6Remnant&r walks out of the dark with a boss bar."
+		""
+		"Higher levels hit harder and drop more. Start close to spawn and push outward as your gear improves."
+	]
+	quest.4E492A6406C03D33.quest_subtitle: "Remnants: RPG Mobs"
+	quest.4E492A6406C03D33.title: "Every monster has a level"
+	quest.4FE211EA64C54A61.title: "Singularity"
+	quest.502371386B2DC7B8.title: "The Harbinger"
+	quest.5147113C352987E7.title: "The Sun Spirit"
+	quest.516AE2FED62CB20A.quest_desc: ["Throw an &eender pearl&r at a bee nest or beehive. A dimension made of honeycomb. Do not anger the bees."]
+	quest.516AE2FED62CB20A.title: "The Bumblezone"
+	quest.51F98D08E58DDB8B.quest_desc: [
+		"Waystones link up into a teleport network. Villages often have one already; walk up and activate it."
+		""
+		"Your map (&eM&r) shows waypoints and lets you claim land, see the next quests."
+	]
+	quest.51F98D08E58DDB8B.title: "Never lose your way"
+	quest.55854071B87F29DC.quest_desc: [
+		"Deep in an ancient city stands a portal. It only opens with the &3Heart of the Deep&r, which the Warden drops."
+		""
+		"The most dangerous place in this pack."
+	]
+	quest.55854071B87F29DC.title: "The Otherside"
+	quest.56896EEEF9172475.quest_desc: ["One compass points to any biome, the other to any structure."]
+	quest.56896EEEF9172475.title: "Find anything"
+	quest.573B94C480D57557.title: "Your storage, anywhere"
+	quest.58765F35776BC848.quest_desc: ["Waits in a catacomb. Drops a spellbook worth the trouble."]
+	quest.58765F35776BC848.title: "The Dead King"
+	quest.58E475D1AD14792D.title: "Grind it down"
+	quest.591529D9A7012CEA.quest_desc: ["Ink scrolls into a spell book at the Inscription Table, then cast with the spell wheel. See the Arcane chapter for more."]
+	quest.591529D9A7012CEA.quest_subtitle: "Iron's Spells 'n Spellbooks"
+	quest.591529D9A7012CEA.title: "Spellsword"
+	quest.5A58857FD0D63BB0.title: "Autocrafting"
+	quest.5B372A27011D28CE.quest_desc: ["Trains carry you and your cargo across the world. Steam 'n' Rails adds more track styles and couplers."]
+	quest.5B372A27011D28CE.title: "All aboard"
+	quest.5C6C580F128E6151.title: "Controller"
+	quest.5CE61515DEDC6FD5.title: "The Naga"
+	quest.5D785276F27DB4E4.title: "Osmium"
+	quest.5EEAA625B9FA6FDD.title: "Fiery ingot"
+	quest.602F4CCF2594D07B.title: "The Leviathan"
+	quest.6062EF1886BDE3B8.title: "Archmage"
+	quest.61B8532C886CF499.quest_desc: ["Immersive Engineering builds machines as multiblocks in the world. Use the hammer on a finished structure to form it. The Engineer's Manual shows every layout."]
+	quest.61B8532C886CF499.title: "Engineer's hammer"
+	quest.62967E589692A5C0.title: "Terminal"
+	quest.62ED1D6FF9C3794A.quest_desc: ["Craft any meal from the ingredients stored around your kitchen."]
+	quest.62ED1D6FF9C3794A.title: "A proper kitchen"
+	quest.63AE696D94CD230C.title: "Shepherd's pie"
+	quest.63BAFEB81748EC05.title: "Revolver"
+	quest.6488A778CFA29B6E.title: "Iron spell book"
+	quest.652CAA6481C63C1A.quest_desc: ["Sleeps in a cave in the overworld. Hit it in the back when it gets stuck after a swing."]
+	quest.652CAA6481C63C1A.title: "Ferrous Wroughtnaut"
+	quest.65EFF4AE84C22F25.quest_desc: ["When you die, a &ecorpse&r stays behind holding all your items. Go back and open it to collect them. It will not despawn."]
+	quest.65EFF4AE84C22F25.title: "If you fall"
+	quest.66DC280626076E81.quest_desc: [
+		"Weapons swing in combos and their reach and arcs differ: longswords sweep, spears thrust, greataxes cleave. Try a few."
+		""
+		"There is also a dodge roll; find its key under Controls."
+	]
+	quest.66DC280626076E81.quest_subtitle: "Better Combat"
+	quest.66DC280626076E81.title: "Fight with style"
+	quest.671E49CFAF782481.title: "The Hydra"
+	quest.6760191EFDFE078E.title: "The Ender Dragon"
+	quest.67CE474398B83022.title: "Turn the wheel"
+	quest.6989C4E5350D13C1.quest_subtitle: "Sleeping bags skip the night without moving your spawn point"
+	quest.6989C4E5350D13C1.title: "A place to rest"
+	quest.6A6C2AFE53AEB661.title: "Frostmaw"
+	quest.6C62A8F37B434F8B.title: "ME drive"
+	quest.702159AF05644A9F.title: "Precision mechanism"
+	quest.707E92B56786EBDC.quest_desc: ["The first step of Mekanism's ore processing chain: two ingots per ore, later up to five."]
+	quest.707E92B56786EBDC.title: "Ore doubling"
+	quest.70B8FEF11A972289.quest_desc: ["Seasons change every few in-game weeks. Most crops only grow in some seasons; JEI shows which. Greenhouse glass lets anything grow all year."]
+	quest.70B8FEF11A972289.title: "The turning year"
+	quest.7261103B3B7B290F.title: "Imbuement"
+	quest.72AB27FF44A05AF9.title: "Netherite Monstrosity"
+	quest.73ABDD82B3B8728E.quest_desc: ["A fan blowing through lava smelts, through fire smokes, through water washes. Items on a belt in front of it are processed in bulk."]
+	quest.73ABDD82B3B8728E.title: "Bulk processing"
+	quest.74EF440228B93AD1.title: "Skillet"
+	quest.7B00515BF7869680.quest_desc: [
+		"Ember & Iron is a big world: machines, magic, new dimensions and a lot of monsters that get &cstronger the further you go&r."
+		""
+		"This book is a loose guide, not a cage. Every chapter on the left is a path you can follow in any order."
+		""
+		"Tip: hover an item and press &eR&r for recipes or &eU&r for uses (JEI)."
+	]
+	quest.7B00515BF7869680.quest_subtitle: "Click the checkmark to begin"
+	quest.7B00515BF7869680.title: "Welcome, traveller"
+	quest.7CE811A2EBE76C6F.quest_desc: ["Brew ales, meads and cheeses."]
+	quest.7CE811A2EBE76C6F.title: "The keg"
+	quest.7DDC6FFC54AC4698.quest_desc: [
+		"Protect your base from griefing and explosions: open the world map (&eM&r), right-click the chunks you want and choose Claim."
+		""
+		"Or stand in a chunk and run &e/openpac-claims claim&r. Make a party with &e/openpac-parties create&r to share claims with friends."
+	]
+	quest.7DDC6FFC54AC4698.quest_subtitle: "Open Parties and Claims"
+	quest.7DDC6FFC54AC4698.title: "Claim your home"
+	quest.7E31511B04FAD53C.title: "Rice"
+	quest.7ED77D1F39D0F595.quest_desc: ["Write your own scrolls from ink and the spells you have found."]
+	quest.7ED77D1F39D0F595.title: "Scroll forge"
+}

@@ -1,0 +1,10 @@
+# Repo files that are not part of the installed pack
+scripts/
+prism/
+docs/
+.github/
+README.md
+LICENSE
+CONTEXT.md
+.gitignore
+build/

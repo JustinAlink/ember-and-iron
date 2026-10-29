@@ -1,0 +1,16 @@
+name = "Ember & Iron"
+author = "JustinAlink"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f4daa2c44cf70b21b8cacd70ff695454f4db362d82bfeaac703db9f09554a123"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"
+
+[options]
+acceptable-game-versions = ["1.21"]

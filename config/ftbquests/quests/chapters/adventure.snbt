@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: ""
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "2E78612A049CCA72"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E492A6406C03D33"]
+			id: "335813486E416FC9"
+			rewards: [{
+				id: "2824C7439290ECBF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7C8295CFA0A224E6"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["335813486E416FC9"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "1D55FBA50BF7F6D6"
+			rewards: [{
+				id: "3F744F25749A216E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59F441A917A46874"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["335813486E416FC9"]
+			id: "66DC280626076E81"
+			rewards: [{
+				id: "07D67BA91C2B1F9F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "45F2C492CEE90514"
+				item: { count: 1, id: "simplyswords:iron_longsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["335813486E416FC9"]
+			id: "244AEA485F0E2EC0"
+			rewards: [
+				{
+					count: 2
+					id: "3F4548D5F1AC8F9F"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5725FB4E56CE31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "725199197D732219"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "1D606679655CE5E4"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:spider"
+					id: "6EC617DAA64722B8"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66DC280626076E81"]
+			id: "1F770D03BD5EFAE7"
+			rewards: [{
+				id: "30383B30D9D138A3"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "181E7B5A115A06DF"
+				item: { count: 1, id: "magistuarmory:norman_helmet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["244AEA485F0E2EC0"]
+			id: "2B4CA6A36D0C09F8"
+			rewards: [{
+				id: "3EC2CC366B2C8810"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "65BE2EBB02248A2E"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2B4CA6A36D0C09F8"]
+			id: "2D07CE994B557091"
+			rewards: [{
+				id: "7E0AB168FD32AFBD"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "116765BAA044F1BC"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B4CA6A36D0C09F8"]
+			id: "10FA83D349A5D9E5"
+			rewards: [{
+				id: "53221BDCDFF75A82"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "70D4AC904B707B84"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B4CA6A36D0C09F8"]
+			id: "1ED80383BF74F01A"
+			rewards: [{
+				id: "7C687F9905B5B778"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "766F24A14ABE3AB7"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["244AEA485F0E2EC0"]
+			id: "3EFBE9D610DD9167"
+			optional: true
+			rewards: [{
+				id: "7E4508754AE27985"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "588DE62C7FCA7D39"
+				item: { count: 1, id: "artifacts:flame_pendant" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1D55FBA50BF7F6D6"]
+			id: "591529D9A7012CEA"
+			rewards: [{
+				id: "46FE81E73A44E93A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59C8748BFA08FEE5"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.25d
+		}
+	]
+}
