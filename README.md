@@ -94,6 +94,13 @@ before launching:
 java -jar packwiz-installer-bootstrap.jar --bootstrap-no-update --bootstrap-main-jar packwiz-installer.jar -g -s server https://raw.githubusercontent.com/JustinAlink/ember-and-iron/main/pack.toml && java ... @libraries/net/neoforged/neoforge/<version>/unix_args.txt nogui
 ```
 
+If syncing fails the server does not start, on purpose: a half-synced mod set can delete blocks
+from the world.
+
 Server-only settings (`server.properties`, the whitelist, voice chat's port) live on the server, not
 in this repo, so syncing never overwrites them. Voice chat uses its own UDP port, the server's
-second allocation.
+second allocation (25566).
+
+**Bumping NeoForge** in `pack.toml` also needs the server's `NEOFORGE_VERSION` variable changed in
+the panel and a Reinstall: the egg installs NeoForge, packwiz only syncs mods and configs. Prism
+instances follow on their own.
